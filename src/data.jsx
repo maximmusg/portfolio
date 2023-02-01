@@ -3,7 +3,7 @@ export const projects = [
         title: "Covid Patients",
         subtitle: "React",
         description: "Aplicacion de formulario para gestion de pacientes covid positivo.",
-        image:"./img/covidPatient.png",
+        image:"./covidPatient.png",
         link:"http://covidpatient.netlify.app/",
     },
     {
