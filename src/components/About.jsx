@@ -7,7 +7,7 @@ const About = () => {
         <div className='lg: flex-frow md:w-1/2 lg: pr-24 md:pr-16 flex flex-col md:items-start'>
           <h1 className='title-font sm:text-4xl text-3xl mb-8 font-bold text-white' >
             Hola, Soy Maxi.
-            <br className=' lg: inline-block' /> Me encanta construir aplicaciones web.
+            <br className=' lg: inline-block' /> asg dadadafasfasgdgasfgas aplicaciones web.
           </h1>
           <p className='mb-8 leading-relaxed'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto numquam deserunt beatae. Dolores, molestiae? Debitis commodi assumenda veritatis perspiciatis, esse animi laudantium recusandae iure mollitia porro, corrupti rerum maxime.
