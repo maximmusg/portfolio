@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id='contact' className='relative' >
       <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap' >
-        <div className=' md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justfy-start relative' >
+        <div className='bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex relative' >
           {/* <iframe 
             width="100%"
             height="100%"
@@ -42,17 +42,56 @@ const Contact = () => {
             style ={{filter: "opacity(0.7)"}}
           /> */}
           <div classNancme='bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md'>
-            <div className='lg: w-1/2 px-6 mt-4 lg:mt-0' >
-              <h2 className='title-font font-semibold text-white tranking-widest text-xs'>
+            <div className='lg: w-full px-6 mt-4 lg:mt-0' >
+              <h1 className='font-bold text-white title-font traking-widest text-3xl pb-4'>
+                DATOS PERSONALES :
+              </h1>
+
+              <h2 className='title-font font-semibold text-white tranking-widest text-xl'>
+                NOMBRE Y APELLIDO
+              </h2>
+              <p className='text-indigo-500 text-l'>
+                Gomez Maximiliano Ezequiel
+              </p>
+
+              <h2 className='title-font font-semibold text-white traking-widest text-xl mt-4' >
+                DNI
+              </h2>
+              <p className='leading-relaxed text-indigo-500' >38.502.162</p>
+
+              <h2 className='title-font font-semibold text-white traking-widest text-xl mt-4' >
+                LUGAR Y FECHA DE NACIMIENTO
+              </h2>
+              <p className='leading-relaxed text-indigo-500'>
+                Cordoba, Argentina - 25 de Octubre de 1994
+              </p>
+
+              <h2 className='title-font font-semibold text-white tranking-widest text-xl mt-4'>
                 CORREO ELECTRÓNICO
               </h2>
-              <a className='text-indigo-500'>
+              <a className='text-indigo-500 text-l'>
                 mmsg.2594@gmail.com
               </a>
-              <h2 className='title-font font-semibold text-white traking-widest text-xs mt-4' >
+
+              <h2 className='title-font font-semibold text-white traking-widest text-xl mt-4' >
                 NUMERO DE TELÉFONO
               </h2>
-              <p className='leading-relaxed' >351-3740384</p>
+              <p className='leading-relaxed text-indigo-500' >351-3740384</p>
+
+              <h2 className='title-font font-semibold text-white tranking-widest text-xl mt-4'>
+                DIRECCION
+              </h2>
+              <a className='text-indigo-500 text-l'>
+                Mariano Mansilla 1286, Barrio: Colinas del Cerro
+              </a>
+
+              <h2 className='title-font font-semibold text-white traking-widest text-xl mt-4' >
+                ESTADO CIVIL
+              </h2>
+              <p className='leading-relaxed text-indigo-500' >Soltero</p>
+
+              
+
             </div>
           </div>
         </div>
