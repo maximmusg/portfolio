@@ -4,13 +4,13 @@ const About = () => {
   return (
     <section id='about'>
       <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center' >
-        <div className='lg: flex-frow md:w-1/2 lg: pr-24 md:pr-16 flex flex-col md:items-start'>
-          <h1 className='title-font sm:text-4xl text-3xl mb-8 font-bold text-white' >
+        <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+          <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white' >
             Hola, Soy Maxi.
-            <br className=' lg: inline-block' /> asg dadadafasfasgdgasfgas aplicaciones web.
+            <br className=' hidden lg:inline-block' /> Soy de la privincia de Cordoba, Argentina.
           </h1>
           <p className='mb-8 leading-relaxed'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto numquam deserunt beatae. Dolores, molestiae? Debitis commodi assumenda veritatis perspiciatis, esse animi laudantium recusandae iure mollitia porro, corrupti rerum maxime.
+            Actualmente me encuentro trabajando en un comercio del rubro quimico, y estoy buscando mi primera experiencia profesional en el mundo de la programacion.
           </p>
           <div className='flex justify-center'>
             <a href="#contact" className='inline-flex text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg'>

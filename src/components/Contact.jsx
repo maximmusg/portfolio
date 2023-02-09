@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id='contact' className='relative' >
       <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap' >
-        <div className='bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex relative' >
+        <div className=' rounded-lg overflow-hidden sm:mr-10 p-10 flex relative' >
           {/* <iframe 
             width="100%"
             height="100%"
@@ -41,7 +41,7 @@ const Contact = () => {
             marginWidth={0}
             style ={{filter: "opacity(0.7)"}}
           /> */}
-          <div classNancme='bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md'>
+          <div className='bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md'>
             <div className='lg: w-full px-6 mt-4 lg:mt-0' >
               <h1 className='font-bold text-white title-font traking-widest text-3xl pb-4'>
                 DATOS PERSONALES :
